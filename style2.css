@@ -1,0 +1,148 @@
+.log{
+    margin: 20px;
+    position: top;
+    margin-bottom: 5px;
+}
+.card{
+    text-align: center;
+    transition: transform .2s;
+}
+body{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    background-size: cover;
+    background-image: url(img/back3.jpg);
+}
+.card:hover {
+    transform: scale(1.10);
+   }
+
+#kg{
+    font-size: 20px;
+    text-align: center;
+    content: none;
+    align-content: center;
+    color: black;
+    font-weight: 700;
+}
+#bck-cho{
+   background-image: url(img/back-chocolate4.png);
+   background-size: cover;
+   text-align: center;
+   }
+#bck-crm{
+   background-image: url(img/back-creamv2.png);
+   background-size: cover;
+}
+#bck-ddl{
+   background-image: url(img/back-ddlv5.png);
+   background-size: cover;
+}
+#bck-frt{
+   background-image: url(img/back-fruitsv2.png);
+   background-size: cover;
+}
+#bck-mss{
+   background-image: url(img/back-mssv2.png);
+   background-size: cover;
+}
+.deld{
+    font-size: 16px;
+}
+.price{
+    font-size: 20px;    
+}
+.menu{
+    font-size: 14px;
+}
+#min{
+    font-size: 13px;
+    margin: 0px;
+    margin-bottom: -10px;
+    color: grey
+}
+#tit{
+    font-size: 18px;
+    margin-bottom: -4px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600; 
+    color: black;
+}
+.promo{
+    font-size: 20px; 
+    color: white; 
+}
+.titsab{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.redes{
+    color: white;
+}
+.card-content{
+    text-align: center;
+}
+.about{
+    color: white;
+    font-size: 14px;
+}
+.card-image{
+    scale: 2.0px;
+}
+.floating{
+    font-size: 20px; 
+    color: black;
+}
+@media only screen and (max-width: 812px) {
+    .floating{
+        font-size: 15px;
+    }
+    #kg{
+        font-size: 15px;
+    } 
+    .promo{
+        font-size: 12px; 
+        color: white; 
+    }
+    .card{
+        transform: scale(1.20);
+    }
+} 
+.collapsible-body{
+    background-color: white;
+}
+.row{
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+.nav-wrapper{
+    font-size: 10px;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+    @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
